@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  color: #f2f2f2;
+  scroll-behavior: smooth;
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.columns-wrapper {
+  min-height: 100vh;
+  margin: 20px 0px 20px 0px;
+}
+
+.columns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.columns .column {
+  max-width: 480px;
+  padding: 50px;
+  width: 85vw;
+  margin: 0 auto;
+}
+
+.columns .column svg {
+  margin-bottom: 20px;
+}
+
+.columns .column h1 {
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", cursive;
+}
+
+.columns .column p {
+  margin: 20px 0px 45px 0px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.columns .column a {
+  background-color: #f2f2f2;
+  text-decoration: none;
+  padding: 12px 22px;
+  border-radius: 25px;
+}
+
+.columns .orange {
+  border-radius: 15px 15px 0px 0px;
+  background-color: #e38826;
+}
+
+.columns .orange a {
+  color: #e38826;
+}
+
+.columns .cyan {
+  background-color: #006970;
+}
+
+.columns .cyan a {
+  color: #004241;
+}
+
+.columns .green {
+  border-radius: 0px 0px 15px 15px;
+  background-color: #004241;
+}
+
+.columns .green a {
+  color: #006970;
+}
+
+@media (min-width: 770px) {
+  .columns {
+    margin: 0 auto;
+    max-width: 1220px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .columns .column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    min-height: 650px;
+  }
+  .columns .column h1 {
+    font-size: 45px;
+  }
+  .columns .column p {
+    line-height: 30px;
+    max-width: 25ch;
+  }
+  .columns .column a {
+    font-size: 20px;
+  }
+  .columns .orange {
+    border-radius: 15px 0px 0px 15px;
+  }
+  .columns .green {
+    border-radius: 0px 15px 15px 0px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,23 @@
+$orange: hsl(31, 77%, 52%);
+$cyan: hsl(184, 100%, 22%);
+$cyanDark: hsl(179, 100%, 13%);
+$whiteTransp: hsla(0, 0%, 100%, 0.75);
+$grayLight: hsl(0, 0%, 95%);
+$fontSize: 15px;
+$normalPc: 20px;
+$bigPc: 45px;
+$fontBig: 'Big Shoulders Display', cursive;
+$fontLex: 'Lexend Deca', sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: $grayLight;
+    scroll-behavior: smooth;
+    font-size: $fontSize;
+    font-family: 'Lexend Deca', sans-serif;;
+}
